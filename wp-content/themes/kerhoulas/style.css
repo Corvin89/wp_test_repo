@@ -1,0 +1,403 @@
+/*
+Theme Name: Gensofts Theame
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Reset
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigations
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Header
+ * 11.0 - Widgets
+ * 12.0 - Content
+ *    12.1 - Posts and pages
+ *    12.2 - Post Formats
+ *    12.3 - Comments
+ * 13.0 - Footer
+ * 14.0 - Media
+ *    14.1 - Captions
+ *    14.2 - Galleries
+ * 15.0 - Multisite
+ * 16.0 - Media Queries
+ *    16.1 - Mobile Large
+ *    16.2 - Tablet Small
+ *    16.3 - Tablet Large
+ *    16.4 - Desktop Small
+ *    16.5 - Desktop Medium
+ *    16.6 - Desktop Large
+ *    16.7 - Desktop X-Large
+ * 17.0 - Print
+ */
+
+
+/**
+ * 1.0 - Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ */
+*{ margin: 0px; padding: 0px;}
+
+p, label, span, ul, li, a, img, ol, h1, h2, h3, h4, h5, h6{ margin: 0px; padding: 0px; list-style: none;}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{}
+
+input[type="text"]{ margin: 0px; padding: 0px; border: 0px; font-family: 'open_sansregular';}
+input[type="email"]{ margin: 0px; padding: 0px; border: 0px; font-family: 'open_sansregular';}
+input[type="tel"]{ margin: 0px; padding: 0px; border: 0px; font-family: 'open_sansregular';}
+textarea{ margin: 0px; padding: 0px; border: 0px; font-family: 'open_sansregular';}
+input[type="submit"], button{ margin: 0px; padding: 0px; border: 0px; font-family: 'open_sansregular';  cursor: pointer;}
+
+a{ border: 0px; outline: 0px; text-decoration: none; cursor: pointer; }
+a:hover{ text-decoration: underline;}
+a img{ border: 0px; outline: 0px;}
+img{ max-width: 100%; height:auto; border: 0px; outline: 0px;}
+
+body{   font-family: 'open_sansregular'; font-size: 14px; padding: 0px 0 0 0}
+
+/******************************************************************************************************************************************/
+
+#maincntr{ width: 1140px; margin: auto; display: block}
+
+.wrapper{ margin: auto; width: 1200px;}
+.headercntr{ float: left; width: 100%; padding:20px 0 0 0%;}
+.logo{ float: left; margin: 0 0 0px 20px; max-width: 250px; cursor: pointer; }
+.logo a:hover{ text-decoration: none; border: 0px;}
+.logo label{ width: 300px; height: 107px; vertical-align: middle; text-align: center; display: table-cell; overflow: hidden;  cursor: pointer; }
+.logo label img{ max-width: 250px; height: auto}
+nav{ float: left; width: 100%;}
+nav ul.topnav li{ float: left;  margin: 15px 0; line-height: 17px; position: relative; }
+nav ul.topnav li ul{ display: none;}
+nav ul.topnav li:hover ul{ position: absolute; left: 0px; top: 19px; width: 230px; display: block; float: left; z-index: 10000; padding: 10px 0 0 0} 
+nav ul.topnav li ul li{ float: left; width: 100%; margin: 0px; padding: 0px; border: 0px; line-height:inherit; }
+nav ul.topnav li ul li a{ display: block; padding: 10px; text-transform: capitalize}
+nav ul.topnav li a{  padding: 0 17px; font-size: 16px; font-family: 'open_sanssemibold';}
+
+nav ul.topnav li:last-child{ border: 0px;}
+
+.callsarae{ float: right;  margin: 20px 20px 0 0; font-size: 20px; padding: 0px 0 5px 0; border-radius: 5px 0px 0px 5px; text-align: center;}
+.callsarae h4{font-family: 'open_sansbold';}
+.callsarae b{ font-weight: 400;  font-size: 14px; text-align: center; border-radius: 50%; padding: 7px 12px; margin-botom: 0px; display: inline-block;}
+.callsarae em{ font-style: normal; font-family: 'droid_sansregular'; font-size: 25px; font-weight: 700; }
+.callsarae em span{ display: none;}
+.callsarae em div{ display: inherit}
+#contactm{ height: auto;}
+.approachdiv{ float: left; width: 660px; margin-left: 22px; padding-bottom: 15px;}
+.approachdiv h2{ font-size: 16px; font-weight: 400; padding: 0 0 7px 0; font-family: 'droid_sansregular';}
+.approachdiv h2 .textwidget{ display: inline}
+.approachdiv li{ float: left; width: 45%; position: relative; padding: 4px 0 4px 4%; margin: 0 0 2px 0; font-size: 13px; overflow: hidden; /*min-height: 37px;*/}
+.approachdiv li:nth-child(2n+2){ float:right }
+.approachdiv li:after{ content:"\f00c"; font-family: FontAwesome;  position: absolute; left: 0px; top: 0px; padding: 4px; text-align: center; height: 100%; }
+
+.banner{ float: left; width: 100%; position: relative;}
+.banner img{ width: 100%; height: auto; float: left;}
+.bannertext{ float: left; width: 100%; position: absolute; left: 0px; top: 0px; }
+.approachdiv li span{ display: table-cell; /*height: 35px;*/ vertical-align: middle;}
+.middlehome{ float: left; width: 100%; padding-bottom: 40px;}
+.arealeft{ float: left; width: 63%; padding: 20px 0 0 30px}
+.page-template-temp_contact .arealeft .rightcont{ display: none;}
+.arealeft h2{ font-size: 30px;  font-family: 'droid_sansbold'; padding: 10px 0 15px 0 }
+.arealeft h3{ font-size: 24px;  font-family: 'droid_sansbold'; padding: 15px 0 15px 0 }
+.arealeft h4{ font-size: 20px;   font-family: 'droid_sansbold'; padding: 15px 0 15px 0 }
+.arealeft h5{ font-size: 17px;  font-family: 'droid_sansbold'; padding: 15px 0 15px 0 }
+.arealeft p{ line-height: 24px; padding: 0 0 15px 0; font-size: 15px; }
+.arealeft ul{ display: block; margin: 20px 10px}
+.arealeft ul li{ display: block; margin: 0 0 10px 0; position: relative; padding: 0 0 0 25px; }
+.arealeft ul li:after{ content:"\f013"; font-family: FontAwesome; position: absolute; left: 0px; top: -2px; padding: 4px; text-align: center; height: 100%;  }
+.arearight{ width: 30%; margin-right: 26px; float: right; margin-top: 30px;}
+.rightcont{ width: 99%; float: left;}
+
+.rightcont h3{ font-size: 23px; text-transform: uppercase; text-align: center;   font-family: 'droid_sansbold'; margin: 0 0 5px 0; position: relative;}
+.rightcont h3:after{ position: absolute; left: 0px; top: 0px; content:"";  border-bottom: 1px solid transparents}
+
+.rightcont h2{ font-size: 35px; text-transform: uppercase; text-align: center;   font-family: 'droid_sansbold'; margin: 0 0 25px 0; position: relative;}
+.rightcont h2:after{ position: absolute; left: 0px; top: 0px; content:"";  border-bottom: 1px solid transparents}
+.rightcont p{ text-align: center; padding: 0 0 15px 0}
+.rightcont ul{ display: block; padding: 0 0 10px 0}
+.rightcont li{ display: block; padding: 0 20px; margin: 0 0 10px 0}
+.rightcont li input[type="text"], input[type="email"], input[type="tel"]{ width: 94%; padding: 0 3%; height: 38px; line-height: 38px; border-radius: 3px;}
+.rightcont li input[type="submit"]{ width: 100%; height: 38px; line-height: 38px; border-radius: 3px; text-transform: uppercase; font-size: 18px;   font-family: 'droid_sansbold';}
+.rightcont li textarea{ height: 50px; width: 94%; padding: 10px 3%; line-height: 18px; border-radius: 3px;}
+
+#footer{ float: left; width: 100%; padding: 14px 0 0 0 }
+#footer h3{  font-size: 20px; font-family: 'open_sanssemibold'; padding: 0 0 13px 0; margin: 0 0 17px 0}
+.bootomfoot{ float: left; width: 100%; text-align: center;  font-size: 13px;  margin: 18px 0 0 0}
+.bootomfoot .pdo{ font-size: 13px;; padding: 15px 0;}
+#footer ul li{ display: block; margin: 0 0 8px 0!important; padding: 0px; }
+#footer ul li a{ font-size: 13px; margin: 0px;}
+#footer ul li a:hover{ text-decoration: none;}
+
+#footer ol li{ display: block; margin: 0 0 11px 0; font-size: 13px; }
+#footer ol li h6{ display: none;}
+#footer ol li a{font-size: 13px;}
+#footer ol li a:hover{ text-decoration: none;}
+#footer ol li span{font-family: 'open_sansbold';}
+
+.callsarae a{ display: none;}
+
+.navigation{ float: left; width: 262px; margin: 0 23px 0 18px}
+.servicesbot{ float: left; width: 252px; margin: 0 30px 0 0}
+.weaccept{ float: left; width: 252px;}
+.contactfoot{ float: right; width: 252px; margin: 0 20px 0 0}
+
+.innerbanner{ float: left; width: 100%; position: relative; height: 280px; overflow: hidden;}
+.innerbanner img{ max-width: 100%; height: auto;}
+.innerbanner h1 { bottom: 0;  float: left;  font-family: 'droid_sansregular';  font-size: 30px;  font-weight: 400;  left: 0;  position: absolute;  width: 100%; overflow: hidden;}
+.innerbanner h1 span b { display: block;  padding: 12px 3%;  position: relative;  z-index: 100;}
+.innerbanner h1 span { display: block; position: relative;}
+
+.innerbanner h1 span:after { bottom: 0;  content: "";  height: 100%;  left: 0;  opacity: 0.5;  padding: 12px 3%;  position: absolute;  width: 100%;  z-index: 1;}
+
+.loopteam{ float: left; width: 32%; margin: 0 1% 0 0; min-height: 200px; border-radius: 3px; padding-bottom: 20px;}
+
+.loopteamimg{ float: left; width: 100%; height: 211px;}
+.loopteamimg lable{ width: 240px; height: 211px; vertical-align: middle; text-align: center; display: table-cell;}
+.loopteamimg lable img{ max-width: 240px; height: auto}
+.loopcover h2{ padding: 10px 0 10px 20px; clear: both; font-size: 17px; font-family: 'droid_sansregular'; font-weight: 400;}
+.loopcover h4{ padding: 10px 0 15px 20px; clear: both; font-size: 14px; font-family: 'droid_sansregular'; font-weight: 400;}
+.loopcover{ float: left; width: 100%; padding: 30px 0 0 0}
+.loopcover p{ padding: 0px 20px 16px 20px;}
+
+.blogleft{ float: left; width: 100%; }
+.blogarea{ float: left; width: 95%;margin:10px 0 20px 0px;  padding: 15px 2%}
+.blogtop{ float: left; width: 100%; position: relative;}
+.blogtop .date { float: left; width: 43px;  font-family: 'droid_sansregular'; text-align: center; border-radius: 3px 0 0 3px; padding: 5px 0;  height: 44px;  left: -59px;  position: absolute;  top: 0;}
+.blogtop .date em{ font-style: normal; display: block; margin-bottom: 4px;}
+.blogtop h3{ padding: 0px 0 15px 0;}
+.blogtop h3 a{ padding: 0px;  font-size: 22px;font-family: 'droid_sansregular'; font-weight: 400;}
+.blogtop h3 a{ display: inline-block;}
+
+.blogtop ul{ float: left; margin: 0px 0 10px 0;}
+.blogtop ul li{ float: left;}
+.alliin h2{ padding-bottom: 20px!important;}
+.contin{ text-align: center;}
+.googlemap{ float: left; width: 99%;  height: 240px; margin-bottom: 30px; margin-top: 11px;}
+.contin ol li {  float: left;  font-size: 15px;  margin: 0 1% 10px 1%;  padding:38px 0 18px 0%;  width:98%; text-align: center;}
+.contin ol li label {  border-radius: 50%;  display: block;  float: none;  height: 60px;  margin: auto auto 14px;  text-align: center;  width: 60px;}
+.contin ol li ol{ width: 100%!important;}
+.contin ol li ol li{ padding: 0px; width: 100%; margin: 0px;}
+.contin ol li .fa { font-size: 37px;  vertical-align: -24px;}
+.contin ol li span{ display: none;}
+.contin ol li h6{ display: none}
+.callsarae a span{ display: none;}
+
+.contin ul {  display: block;  float: left;  margin: 0 0 20px;  padding: 0;  width: 100%;}
+#hour li { min-height: 113px; float: left; background: none; margin: 0 0 10px;  padding: 0; text-align: center; width: 50%;}
+#hour label { border-radius: 50%;  display: block;   height: 60px;  margin: auto auto 7px;  text-align: center;  width: 60px;}
+#hour li .fa { font-size: 37px;  vertical-align: -28px;}
+.contin{ float: left; width: 100%;}
+.contin h2{font-family: 'droid_sansregular'; font-weight: 400; padding-bottom: 0px;}
+.googlemap iframe{ width: 100%; height: 240px;}
+.rightblog{ float: left; width: 100%; padding-bottom: 40px;}
+
+.blogshare{ float: left; width: 100%;}
+.blogimg{ width: 100%; float: left; margin-bottom: 20px;}
+.alliin{ float: left; width: 100%; margin-top: 0px;}
+.alliin h2{ margin-bottom: 20px;}
+.alliin li:after{ display: none;}
+.adminb{}
+.adminb2{}
+.adminb3{}
+
+.resmnu { display: none;  float: left;  height: 42px;  line-height: 42px;  padding-left: 3%;  position: relative;  width: 97%;}
+.resmnu:after{ position: absolute; right: 10px; top: 0px;font-size: 28px; content:"\f0c9";  font-family: FontAwesome;}
+
+.categoryin{ float: left; width: 100%; padding: 16px 0 10px 0;  margin-bottom: 20px;}
+.categoryin h3{ font-size: 20px; font-family: 'droid_sansregular'; font-weight: 400; padding: 0 0 15px 20px;}
+.categoryin ul{ margin: 0px;}
+.categoryin ul li{ margin: 0px 20px; padding: 5px 0px;}
+
+.archivein{ float: left; width: 100%; padding: 0 0 10px 0}
+.archivein h3{ font-size: 20px; font-family: 'droid_sansregular'; font-weight: 400; padding: 0 0 15px 20px;}
+.archivein ul{ margin: 0px;}
+.archivein ul li{ margin: 0px 20px; padding: 5px 0px;}
+
+.detob{ float: left; width: 100%; height: 170px; overflow: hidden; marignt-bottom: 20px;}
+.midform{ float: left; width: 70%; padding: 50px 15%;}
+.midform h1{ font-size: 20px; padding: 0 0 20px 0; font-family: 'droid_sansregular'; font-weight: 400;}
+.midform p{ padding: 0 0 15px 0 }
+.midform .search-form input[type="search"]{ width: 300px; height: 34px;font-family: 'droid_sansregular'; font-weight: 400; line-height: 34px;  border-radius: 3px; padding: 0 15px; border-radius: 3px;}
+.midform .search-form input[type="submit"]{ width: 100px; height: 36px;  border-radius: 3px; }
+
+.topnav-2{ display: none;}
+.topnav-2 li{ float: left; width: 100%; } 
+.topnav-2 li a{ display: block; padding: 10px;} 
+.continner{ float: left; width: 100%;}
+.continner h1{ position: inherit}
+
+.easy_testimonial{  border-raidus: 3px;  padding-top: 22px!important; position: relative;}
+.easy_testimonial:after{ position: absolute; left: 20px; top: 0px;  border-left: 10px solid transparent;  border-right: 10px solid transparent; content:"";}
+.testimonial-client:after{ position: absolute; left: -33px; top: 10px; content:""; width: 30px;}
+.testimonial-client{ position: relative; margin-left: 40px;}
+.logo .textwidget {
+  font-size: 31px; 
+  line-height: 29px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.gpl{ float: left; width: 100%; text-align: left;}
+.gpl label { border-radius: 50%;  display: block;  height: 60px;  margin: 0 0 7px 20px;  text-align: center;  width: 60px;
+}
+.gpl label .fa {  font-size: 37px;  vertical-align: -24px;}
+.myget{ float: left; width: 100%; margin: 0 0 30px 0}
+#requestan #hour{ width: 100%; margin-bottom: 30px;}
+#requestan #hour li{  height: auto;  min-height: auto;  text-align: left; padding: 0 0 3px 0}
+.mlefty{ width: 26%; float: left;}
+#requestan .mlefty h2{ border: 0px!important; margin: 0px;}
+.mrighty{ width: 70%; float: right;}
+#requestan ul li.mymessage {  position: absolute;  right: -399px;  top: 0;  width: 380px;}
+
+#requestan h2{ text-transform: uppercase; font-size: 22px; font-family: 'open_sanssemibold';  padding: 0 0 12px 0; margin: 0 0 20px 0}
+.leftconty{ float: left; width: 39%;}
+.rightconty{ float: right; width: 59%;}
+#requestan{ float: left; padding: 20px; width: 96%; margin: 0 2%; position: relative; border: 2px solid #fff;  box-sizing: border-box;}
+#requestan ul{ float: left; width: 49%; position: relative; margin: 0px;}
+#requestan ul li{ float: left; width: 100%; background: none; padding: 0px 0 20px 0; margin: 0px;}
+#requestan ul li input[type="text"]{ width: 100%; height: 35px; line-height; 35px; padding: 0 15px; box-sizing: border-box;}
+#requestan ul li input[type="number"]{ width: 100%; height: 35px; line-height; 35px; padding: 0 15px; box-sizing: border-box;}
+#requestan ul li textarea{ width: 100%; height: 117px; line-height; 35px; padding: 15px; box-sizing: border-box; resize: none;}
+#requestan ul li:after{ display: none;}
+#requestan ul li label{ display: block; padding: 0 0 5px 0}
+
+#requestan ul li.mysubmit {  bottom: 0;  position: absolute;  right: -399px;  width: 380px; padding-bottom: 0px;}
+#requestan ul li input[type="submit"]{  border-radius: 3px; font-family: "droid_sansbold";  font-size: 18px;  height: 38px; line-height: 38px; text-transform: uppercase;  width: 100%;}
+#requestan .wpcf7-response-output{ float: left; margin: 0px;}
+.myget:empty { display: none}
+.myget:blank{ display: none}
+
+@media (max-width:1200px){
+.wrapper{ width: 1100px}
+.approachdiv { margin: 0 2%; width: 96%;}
+.banner{ overflow: hidden;}
+.arearight{ width: 32%;}
+.navigation{ width: 236px;}
+.innerbanner{ height: 267px;}
+#requestan ul li.mymessage {  position: absolute;  right: -361px;  top: 0;  width: 340px;}
+#requestan ul li.mysubmit{  position: absolute;  right: -361px;  width: 340px;}
+.arealeft{ width: 61%}
+
+}
+
+@media (max-width:1100px){
+#requestan ul li.mymessage {  POSITION: inherit;  left: inherit;  right: inherit;  width: 100%;}
+#requestan ul li.mysubmit{  POSITION: inherit;  left: inherit;  right: inherit;  width: 50%;}
+#requestan ul{ WIDTH: 100%;}
+.wrapper{ width: 1000px}
+.servicesbot{ width: 170px;}
+.weaccept{ width: 227px}
+.blogarea{ width: 92%; float: right;}
+.innerbanner{ height: 240px;}
+
+}
+@media (max-width:1000px){
+.wrapper{ width: 800px}
+.arealeft{ width: 96%; padding: 10px 2%;}
+.arearight{ width: 100%; margin-right: 0px;}
+.contactfoot{ width: 100%; margin-right: 0px; margin-top: 20px;}
+.navigation{ margin-left: 0px;}
+.callsarae a {  border-radius: 47px;  display: inline-block;  float: none;  font-size: 18px;  padding: 8px 21px;}
+.callsarae b{ display: none}
+.callsarae em{ display: none}
+#menu-header-menu{ float: left; width: 100%;}
+.resmnu{ display: block;}
+#menu-header-menu-1{ display: none!important}
+.innerbanner{ height: 195px;}
+}
+@media (max-width:800px){
+.wrapper{ width: 600px}
+.approachdiv li{ margin-right: 0px; width: 93%; float: left!important; padding-left: 7%;}
+.weaccept{ width: 100%; margin-top: 20px;}
+.blogtop .date {margin: 0 0 10px 0;   height: 44px;  line-height: 44px;  left: inherit;  padding: 5px 0;  position: inherit;  text-align: center;  top: inherit;  width: 100%;}
+.blogtop .date em{ display: inline-block;}
+.innerbanner{ height: 146px;}
+#requestan ul{ width: 100%;}
+#requestan ul li.mymessage { position: inherit; right: inherit; top: inherit; width: 100%;}
+#requestan ul li.mysubmit {  bottom: inherit;  position: inherit;  right: inherit;  width: 100%;}
+.mrighty{ width: 60%;}
+.mlefty{ width: 36%}
+}
+@media (max-width:600px){
+.mlefty{ width: 100%; margin-bottom: 40px;}
+.mrighty{ width: 100%;}
+.leftconty{ width: 100%}
+.rightconty{ width: 100%}
+.arealeft .rightcont ul li::after{ display: none;}
+.page-template-temp_contact .arealeft .rightcont{ display: none; margin-bottom: 30px;}
+.arealeft .rightcont ul li{ padding-left: 0px; background: none;}
+.page-template-temp_contact .arearight .rightcont{ display: none;}
+.contin ol li .textwidget{ float: left;}
+.contin ol li{ width: 98%; text-align: left; padding-bottom: 0px; margin-bottom: 0px;}
+.contin ol li label{ margin-top: -11px; margin-right: 15px; float: left;}
+.wrapper{ width: 450px}
+.arealeft h2{ font-size: 24px;}
+.navigation{ width: 49%; margin-right: 0px;}
+.servicesbot{ width: 49%; float: right; margin-right: 0px;}
+.callsarae{ width: 100%; margin-bottom: 20px; margin-top: 0px; margin-right: 0px;}
+.logo {  display: block;  float: none;  margin: auto;  width: 300px;}
+.loopteam{ width: 100%; margin-right: 0px; margin-bottom: 30px;}
+.loopteamimg{ text-align: center;}
+.innerbanner {  height: auto;}
+.innerbanner img{ display: block;}
+.innerbanner h1{ position: inherit; left: inherit; bottom: inherit; font-size: 20px;}
+}
+@media (max-width:450px){
+.contin ol li .textwidget{ width: 100%;}
+.contin ol li{ text-align: center;}
+.wrapper{ width: 300px}
+.navigation{ width: 100%}
+.servicesbot{ width: 100%; margin-top: 20px;}
+.logo label{ width: 230px;}
+.logo label img{ width: 230px;}
+.logo{ width: 230px;}
+.rightcont h2{ font-size: 28px;}
+.contin ol li label{ margin: 0 39% 10px}
+.approachdiv li{ margin-right: 0px; width: 90%; float: left!important; padding-left: 10%;}
+#hour li{ min-height: 126px; width: 50%;}
+.innerbanner h1{ font-size: 20px;}
+.arealeft h3{ font-size: 18px;}
+.innerbanner h1{ font-size: 17px;}
+}
+
+@media (max-width:300px){
+#requestan h2{ font-size: 17px;}
+.wrapper{ width: 230px}
+.logo label{ width: 200px;}
+.logo label img{ width: 200px;}
+.logo{ width: 200px;}
+.contin ol li label{ margin: 0 37% 10px}
+.arealeft h2{ font-size: 20px;}
+.approachdiv li{ padding-left: 12%; width: 88%;}
+.innerbanner h1{ font-size: 14px;}
+.rightcont h3{ font-size: 16px}
+}
+

@@ -1,0 +1,466 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WP Smush"
+msgstr ""
+
+#. Short description.
+msgid "Reduce image file sizes, improve performance and boost your SEO using the free WPMU DEV WordPress Smush API."
+msgstr ""
+
+#. Screenshot description.
+msgid "See individual attachment savings from WP Smush in the Media Library."
+msgstr ""
+
+#. Screenshot description.
+msgid "See the total savings from WP Smush in the Media Library."
+msgstr ""
+
+#. Found in description header.
+msgid "All new massively improved smushing!"
+msgstr ""
+
+#. Found in description header.
+msgid "If you like WP Smush, you'll love WP Smush Pro"
+msgstr ""
+
+#. Found in description list item.
+msgid "\"Super-Smush\" your images with our intelligent multi-pass lossy compression. Get over 2x more compression than lossless with almost no noticeable quality loss!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Get even better lossless compression. We try multiple methods to squeeze every last byte out of your images."
+msgstr ""
+
+#. Found in description list item.
+msgid "Smush images up to 32MB (WP Smush is limited to 1MB)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulk smush ALL your images with one click! No more rate limiting."
+msgstr ""
+
+#. Found in description list item.
+msgid "Keep a backup of your original un-smushed images in case you want to restore later."
+msgstr ""
+
+#. Found in description list item.
+msgid "24/7/365 support from <a href=\"https://premium.wpmudev.org/support/?utm_source=wordpress.org&amp;utm_medium=readme\">the best WordPress support team on the planet</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://premium.wpmudev.org/?utm_source=wordpress.org&amp;utm_medium=readme\">350+ other premium plugins and themes</a> included in your membership."
+msgstr ""
+
+#. Found in description list item.
+msgid "Optimize your images using advanced lossless compression techniques."
+msgstr ""
+
+#. Found in description list item.
+msgid "Process JPEG, GIF and PNG image files."
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto-Smush your attachments on upload."
+msgstr ""
+
+#. Found in description list item.
+msgid "Manually smush your attachments individually in the media library, or in bulk 50 attachments at a time."
+msgstr ""
+
+#. Found in description list item.
+msgid "Smush all images 1MB or smaller."
+msgstr ""
+
+#. Found in description list item.
+msgid "Use of WPMU DEV's fast and reliable Smush API service."
+msgstr ""
+
+#. Found in description list item.
+msgid "View advanced compression stats per-attachment and library totals."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Smush strips hidden, bulky information from your images, reducing the file size without losing quality. The faster your site loads, the more Google, Bing, Yahoo and other search engines will like it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=GCzH7z05s5U]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Heavy image files may be slowing down your site without you even knowing it. WP Smush meticulously scans every image you upload – or have already added to your site – and cuts all the unnecessary data for you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Install WP Smush and find out why it's the most popular image optimization plugin for WordPress available today with over 1 million downloads."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features available to both WP Smush and Pro users include:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Discover for yourself why WP Smush is the most popular free image optimization plugin with more than a million downloads."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>wp-smush</code> plugin to your <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure your desired settings via the <code>Media -&gt; WP Smush</code> settings page."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Done!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Change File permission after replacing image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Directory path for files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Workaround for Auto Smush issue on Hostgator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New:   Show number of images smushed in stats column"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for WP Retina 2x Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter <code>WP_SMUSH_API_TIMEOUT</code> to change the default time out value from 60s"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Smush original image option (Pro Only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use string for text domain instead of PHP Constant ( WordPress Guideline )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Max image size limit to 32Mb for Pro Version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Conflict with various themes while editing post and page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Word Count not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Notice and Warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New:   Allow Super-smush for existing smushed images (Pro Only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: IMPORTANT - broken transient caching for is_pro"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fixed conflict with wp gallery link plugin in grid view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Other small fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fatal error conflict with some plugins on fronted of site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed (Important Update) - Image being corrupted while regenerating thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check for existing constant definition, before defining new"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete rewrite to use WPMU DEV's new fast and reliable API service."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: One-click bulk smushing of all your images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: \"Super-Smush\" your images with our intelligent multi-pass lossy compression. Get over 2x more compression with almost no noticeable quality loss! (Pro)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Keep a backup of your original un-smushed images in case you want to restore later. (Pro)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UX/UI updated with overall stats, progress bar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Ajax for Bulk Smush to avoid timeouts and internal server error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other Notice and bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings moved under Media &gt; WP Smush.it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added debug log file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added settings option to disable check for home url."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "for PHP 5.4.x reordered class WpSmushit contructors to prevent Strict Standards Exception"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed check for file within local site home path. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected issues with Windows paths compare."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added debug output option to help with user support issues. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correct Settings &gt; Media issue causing settings to report warnings and not save. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected some processing logic to better handling or image path. Images still need to be within ABSPATH of site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correct image URL passed to Smush.it API to convert https:// urls to http:// since the API does not allow https:// images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Codes reformatted and cleaned up into a php class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More texts are translatable now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug that prevents execution"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "check image size before uploading (1 MB limit)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "attempt to smush more than one image before bailing (kind thanks to <a href=\"http://wordpress.org/support/profile/xrampage16\">xrampage16</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "allow setting timeout value under <code>Media &gt; Settings</code> (default is 60 seconds)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "about to get a new lease on life notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "no longer maintained notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added setting to disable automatic smushing on upload (default is true)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "on HTTP error, smushing will be temporarily disabled for 6 hours"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added basic integration for the <a href=\"http://wordpress.org/extend/plugins/wp-smushit-nextgen-gallery-integration/\">NextGEN gallery plugin</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add support for media bulk action dropdown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "compatibility with WordPress earlier than 3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added a <a href=\"http://dunae.ca/donate.html\">donate link</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "cleaner handling of file paths"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bulk smush.it will no longer re-smush images that were successful"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bulk smush.it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add debugging output on failure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed realpath() call"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IPv6 compat"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "handle images stored on other domains -- props to <a href=\"http://wordpress.org/support/profile/ka-ri-ne\">ka-ri-ne</a> for the fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "avoid time-out errors when working with larger files -- props to <a href=\"http://wordpress.org/support/profile/dimadin\">Milan Dinić</a> for the fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed testing link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated Smush.it endpoint URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed path checking on Windows servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update to workaround WordPress's new JSON compat layer (see <a href=\"http://core.trac.wordpress.org/ticket/11827\">trac ticket</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed undefined constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed debugging code that was interfering with the Flash uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated to use Yahoo! hosted Smush.it service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added security checks to files passed to <code>wp_smushit()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added support for PHP 4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "created admin action hook as workaround to WordPress 2.9's <code>$_registered_pages</code> security (see <a href=\"http://core.trac.wordpress.org/changeset/11596\">changeset 11596</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add savings amount in bytes to Media Library (thx <a href=\"http://www.yoast.com/\">Yoast</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added support for <code>WP_Http</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed activation error when the PEAR JSON library is already loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added test for <code>allow_url_fopen</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added error message on PHP copy error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved handling of errors from Smush.it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added ability to manually smush images from media library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed inconsistent path handling from WP 2.5 -&gt; WP 2.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added 'Not processed' status message when browsing media library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added i10n functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "first edition"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "About Us"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Contact and Credits"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Hey, one more thing... we hope you <a href=\"http://profiles.wordpress.org/WPMUDEV/\">enjoy our free offerings</a> as much as we've loved making them for you!"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Originally written by Alex Dunae at Dialect (<a href=\"http://dialect.ca/?wp_smush_it\">dialect.ca</a>, e-mail 'alex' at 'dialect dot ca'), 2008-11."
+msgstr ""
