@@ -109,4 +109,3 @@ function ifurlparam($atts, $content) {
     return '';
 }
 
-?>
